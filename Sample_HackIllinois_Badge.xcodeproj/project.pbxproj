@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		989DC62423331E340079A14E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989DC62323331E340079A14E /* AppDelegate.swift */; };
+		989DC62623331E340079A14E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989DC62523331E340079A14E /* ViewController.swift */; };
+		989DC62923331E340079A14E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 989DC62723331E340079A14E /* Main.storyboard */; };
+		989DC62B23331E350079A14E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 989DC62A23331E350079A14E /* Assets.xcassets */; };
+		989DC62E23331E350079A14E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 989DC62C23331E350079A14E /* LaunchScreen.storyboard */; };
+		989DC63923331E350079A14E /* Sample_HackIllinois_BadgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989DC63823331E350079A14E /* Sample_HackIllinois_BadgeTests.swift */; };
+		989DC64423331E350079A14E /* Sample_HackIllinois_BadgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989DC64323331E350079A14E /* Sample_HackIllinois_BadgeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		989DC63523331E350079A14E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 989DC61823331E340079A14E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 989DC61F23331E340079A14E;
+			remoteInfo = Sample_HackIllinois_Badge;
+		};
+		989DC64023331E350079A14E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 989DC61823331E340079A14E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 989DC61F23331E340079A14E;
+			remoteInfo = Sample_HackIllinois_Badge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		989DC62023331E340079A14E /* Sample_HackIllinois_Badge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample_HackIllinois_Badge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		989DC62323331E340079A14E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		989DC62523331E340079A14E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		989DC62823331E340079A14E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		989DC62A23331E350079A14E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		989DC62D23331E350079A14E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		989DC62F23331E350079A14E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		989DC63423331E350079A14E /* Sample_HackIllinois_BadgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sample_HackIllinois_BadgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		989DC63823331E350079A14E /* Sample_HackIllinois_BadgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample_HackIllinois_BadgeTests.swift; sourceTree = "<group>"; };
+		989DC63A23331E350079A14E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		989DC63F23331E350079A14E /* Sample_HackIllinois_BadgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sample_HackIllinois_BadgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		989DC64323331E350079A14E /* Sample_HackIllinois_BadgeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample_HackIllinois_BadgeUITests.swift; sourceTree = "<group>"; };
+		989DC64523331E350079A14E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		989DC61D23331E340079A14E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		989DC63123331E350079A14E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		989DC63C23331E350079A14E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		989DC61723331E340079A14E = {
+			isa = PBXGroup;
+			children = (
+				989DC62223331E340079A14E /* Sample_HackIllinois_Badge */,
+				989DC63723331E350079A14E /* Sample_HackIllinois_BadgeTests */,
+				989DC64223331E350079A14E /* Sample_HackIllinois_BadgeUITests */,
+				989DC62123331E340079A14E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		989DC62123331E340079A14E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				989DC62023331E340079A14E /* Sample_HackIllinois_Badge.app */,
+				989DC63423331E350079A14E /* Sample_HackIllinois_BadgeTests.xctest */,
+				989DC63F23331E350079A14E /* Sample_HackIllinois_BadgeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		989DC62223331E340079A14E /* Sample_HackIllinois_Badge */ = {
+			isa = PBXGroup;
+			children = (
+				989DC62323331E340079A14E /* AppDelegate.swift */,
+				989DC62523331E340079A14E /* ViewController.swift */,
+				989DC62723331E340079A14E /* Main.storyboard */,
+				989DC62A23331E350079A14E /* Assets.xcassets */,
+				989DC62C23331E350079A14E /* LaunchScreen.storyboard */,
+				989DC62F23331E350079A14E /* Info.plist */,
+			);
+			path = Sample_HackIllinois_Badge;
+			sourceTree = "<group>";
+		};
+		989DC63723331E350079A14E /* Sample_HackIllinois_BadgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				989DC63823331E350079A14E /* Sample_HackIllinois_BadgeTests.swift */,
+				989DC63A23331E350079A14E /* Info.plist */,
+			);
+			path = Sample_HackIllinois_BadgeTests;
+			sourceTree = "<group>";
+		};
+		989DC64223331E350079A14E /* Sample_HackIllinois_BadgeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				989DC64323331E350079A14E /* Sample_HackIllinois_BadgeUITests.swift */,
+				989DC64523331E350079A14E /* Info.plist */,
+			);
+			path = Sample_HackIllinois_BadgeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		989DC61F23331E340079A14E /* Sample_HackIllinois_Badge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 989DC64823331E350079A14E /* Build configuration list for PBXNativeTarget "Sample_HackIllinois_Badge" */;
+			buildPhases = (
+				989DC61C23331E340079A14E /* Sources */,
+				989DC61D23331E340079A14E /* Frameworks */,
+				989DC61E23331E340079A14E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sample_HackIllinois_Badge;
+			productName = Sample_HackIllinois_Badge;
+			productReference = 989DC62023331E340079A14E /* Sample_HackIllinois_Badge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		989DC63323331E350079A14E /* Sample_HackIllinois_BadgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 989DC64B23331E350079A14E /* Build configuration list for PBXNativeTarget "Sample_HackIllinois_BadgeTests" */;
+			buildPhases = (
+				989DC63023331E350079A14E /* Sources */,
+				989DC63123331E350079A14E /* Frameworks */,
+				989DC63223331E350079A14E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				989DC63623331E350079A14E /* PBXTargetDependency */,
+			);
+			name = Sample_HackIllinois_BadgeTests;
+			productName = Sample_HackIllinois_BadgeTests;
+			productReference = 989DC63423331E350079A14E /* Sample_HackIllinois_BadgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		989DC63E23331E350079A14E /* Sample_HackIllinois_BadgeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 989DC64E23331E350079A14E /* Build configuration list for PBXNativeTarget "Sample_HackIllinois_BadgeUITests" */;
+			buildPhases = (
+				989DC63B23331E350079A14E /* Sources */,
+				989DC63C23331E350079A14E /* Frameworks */,
+				989DC63D23331E350079A14E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				989DC64123331E350079A14E /* PBXTargetDependency */,
+			);
+			name = Sample_HackIllinois_BadgeUITests;
+			productName = Sample_HackIllinois_BadgeUITests;
+			productReference = 989DC63F23331E350079A14E /* Sample_HackIllinois_BadgeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		989DC61823331E340079A14E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Hyosang Ahn";
+				TargetAttributes = {
+					989DC61F23331E340079A14E = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					989DC63323331E350079A14E = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 989DC61F23331E340079A14E;
+					};
+					989DC63E23331E350079A14E = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 989DC61F23331E340079A14E;
+					};
+				};
+			};
+			buildConfigurationList = 989DC61B23331E340079A14E /* Build configuration list for PBXProject "Sample_HackIllinois_Badge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 989DC61723331E340079A14E;
+			productRefGroup = 989DC62123331E340079A14E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				989DC61F23331E340079A14E /* Sample_HackIllinois_Badge */,
+				989DC63323331E350079A14E /* Sample_HackIllinois_BadgeTests */,
+				989DC63E23331E350079A14E /* Sample_HackIllinois_BadgeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		989DC61E23331E340079A14E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				989DC62E23331E350079A14E /* LaunchScreen.storyboard in Resources */,
+				989DC62B23331E350079A14E /* Assets.xcassets in Resources */,
+				989DC62923331E340079A14E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		989DC63223331E350079A14E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		989DC63D23331E350079A14E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		989DC61C23331E340079A14E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				989DC62623331E340079A14E /* ViewController.swift in Sources */,
+				989DC62423331E340079A14E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		989DC63023331E350079A14E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				989DC63923331E350079A14E /* Sample_HackIllinois_BadgeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		989DC63B23331E350079A14E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				989DC64423331E350079A14E /* Sample_HackIllinois_BadgeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		989DC63623331E350079A14E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 989DC61F23331E340079A14E /* Sample_HackIllinois_Badge */;
+			targetProxy = 989DC63523331E350079A14E /* PBXContainerItemProxy */;
+		};
+		989DC64123331E350079A14E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 989DC61F23331E340079A14E /* Sample_HackIllinois_Badge */;
+			targetProxy = 989DC64023331E350079A14E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		989DC62723331E340079A14E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				989DC62823331E340079A14E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		989DC62C23331E350079A14E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				989DC62D23331E350079A14E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		989DC64623331E350079A14E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		989DC64723331E350079A14E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		989DC64923331E350079A14E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z48M567XRX;
+				INFOPLIST_FILE = Sample_HackIllinois_Badge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Developer.Sample-HackIllinois-Badge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		989DC64A23331E350079A14E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z48M567XRX;
+				INFOPLIST_FILE = Sample_HackIllinois_Badge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Developer.Sample-HackIllinois-Badge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		989DC64C23331E350079A14E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z48M567XRX;
+				INFOPLIST_FILE = Sample_HackIllinois_BadgeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Developer.Sample-HackIllinois-BadgeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sample_HackIllinois_Badge.app/Sample_HackIllinois_Badge";
+			};
+			name = Debug;
+		};
+		989DC64D23331E350079A14E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z48M567XRX;
+				INFOPLIST_FILE = Sample_HackIllinois_BadgeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Developer.Sample-HackIllinois-BadgeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sample_HackIllinois_Badge.app/Sample_HackIllinois_Badge";
+			};
+			name = Release;
+		};
+		989DC64F23331E350079A14E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z48M567XRX;
+				INFOPLIST_FILE = Sample_HackIllinois_BadgeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Developer.Sample-HackIllinois-BadgeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sample_HackIllinois_Badge;
+			};
+			name = Debug;
+		};
+		989DC65023331E350079A14E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z48M567XRX;
+				INFOPLIST_FILE = Sample_HackIllinois_BadgeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Developer.Sample-HackIllinois-BadgeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sample_HackIllinois_Badge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		989DC61B23331E340079A14E /* Build configuration list for PBXProject "Sample_HackIllinois_Badge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				989DC64623331E350079A14E /* Debug */,
+				989DC64723331E350079A14E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		989DC64823331E350079A14E /* Build configuration list for PBXNativeTarget "Sample_HackIllinois_Badge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				989DC64923331E350079A14E /* Debug */,
+				989DC64A23331E350079A14E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		989DC64B23331E350079A14E /* Build configuration list for PBXNativeTarget "Sample_HackIllinois_BadgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				989DC64C23331E350079A14E /* Debug */,
+				989DC64D23331E350079A14E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		989DC64E23331E350079A14E /* Build configuration list for PBXNativeTarget "Sample_HackIllinois_BadgeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				989DC64F23331E350079A14E /* Debug */,
+				989DC65023331E350079A14E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 989DC61823331E340079A14E /* Project object */;
+}

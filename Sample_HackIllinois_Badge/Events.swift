@@ -20,7 +20,7 @@ struct Events:Decodable {
 
 struct EventDetail:Decodable {
     var name:String
-    var location:EventLocation
+    var locations:[EventLocation]
 }
 
 

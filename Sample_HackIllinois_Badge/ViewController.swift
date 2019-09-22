@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     //MARK: Properties
-    @IBOutlet weak var labelLatitude: UILabel!
+//    @IBOutlet weak var labelLatitude: UILabel!
     @IBOutlet weak var labelLongitude: UILabel!
     
     var eventList = [EventDetail]()
@@ -23,8 +23,9 @@ class ViewController: UIViewController {
             switch res {
             case .success(let events):
                 DispatchQueue.main.async
-                    {self.labelLatitude.text = "\(events.events[1].locations[0].latitude)"
-                    self.labelLongitude.text = "\(events.events[1].locations[0].longitude)"}
+                    {
+//                        self.labelLatitude.text = "(\(events.events[1].locations[0].latitude), \(events.events[1].locations[0].longitude))"
+                    self.labelLongitude.text = "(\(events.events[1].locations[0].latitude), \(events.events[1].locations[0].longitude))"}
             case .failure(let err):
                 print("Failed to fetch events: ", err)
             }

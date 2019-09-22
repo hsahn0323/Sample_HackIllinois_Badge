@@ -16,14 +16,10 @@ struct Events:Decodable {
     var events:[EventDetail]
 }
 
-
-
 struct EventDetail:Decodable {
     var name:String
     var locations:[EventLocation]
 }
-
-
 
 struct EventLocation:Decodable {
     var latitude:Double

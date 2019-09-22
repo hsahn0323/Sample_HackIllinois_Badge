@@ -55,6 +55,8 @@ class ViewController: UIViewController {
     }
 }
 
+// Source:
+// https://spin.atomicobject.com/2017/07/18/swift-interface-builder/
 import UIKit
 
 @IBDesignable
